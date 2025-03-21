@@ -34,6 +34,27 @@ body {
     align-items: center;
 }
 
+.navigation-icons{
+    cursor: pointer;
+}
+
+.navigation-icons:hover{
+    background-color: #f8f5f5;
+    transition: ease-in-out 0.2s;
+}
+
+.nav-item{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+}
+
+.nav-item:hover{
+    background-color: #e8e7e7;
+    transition: ease-in-out 0.2s;
+}
+
 /* Search_Bar */
 
 .search{
@@ -176,6 +197,11 @@ span{
 .categories-footer{
     padding: 25px;
 }
+
+.more-info{
+    padding-left: 15px;
+}
+
 
 
 /* Buttons */
