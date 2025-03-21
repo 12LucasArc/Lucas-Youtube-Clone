@@ -188,11 +188,6 @@ span{
     padding: 0 25px;
 }
 
-.button-selector-shorts{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 25px;
-}
 
 button{
     border: solid 1px #121010;
@@ -292,9 +287,34 @@ span{
 
 /* Shorts_Section */
 
+.s-grid{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    
+}
+
+.shorts-grid{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+
 .shorts{
     display: flex;
+    width: 100%; 
 }
+
+.short-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.views-date{
+    font-size: 14px;
+    font-weight: 400;
+}
+
 
 .shorts img{
     width: 25px;
@@ -308,7 +328,7 @@ span{
     color: #606060;
 }
 
-.first-short{
+.yt-short{
     width: 210px;
     height: 373px;
     border-radius: 10px;
